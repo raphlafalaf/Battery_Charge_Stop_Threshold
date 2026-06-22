@@ -1,8 +1,11 @@
 [Desktop Entry]
 Type=Application
-Name=Battery Threshold  
-Comment=Set battery charge threshold on Linux
-Exec=python3 /path/of/your/Battery_Charge_Stop_Threshold/app.py
+Name=Battery Threshold
+Comment=Set the battery charge limit to protect battery health
+Exec=python3 /home/raph/MyAppsZor/Battery_Charge_Stop_Threshold/app.py
+Path=/home/raph/MyAppsZor/Battery_Charge_Stop_Threshold
 Icon=battery
-Categories=Utility;
+Categories=Utility;System;
 Terminal=false
+StartupWMClass=app.py
+Keywords=battery;charge;threshold;limit;
